@@ -1,0 +1,7 @@
+【Resource Name】    ：ricx_deliveryscript
+【Resource preview】 ：https://camo.githubusercontent.com/e902f9fa1c46cfc4055eeeac7eb45974f67b8dd5729d5ac6f5844137a5647f21/68747470733a2f2f692e6962622e636f2f446758313130322f72616b6f646f2e706e67
+【Resource creator】 ：The_RicX#8022
+【Download】         ：
+```- RedEMRP compatible job basic script
+
+Delivery job at Saint Denis' Port. Grab the box and bring it to the marked place.```
