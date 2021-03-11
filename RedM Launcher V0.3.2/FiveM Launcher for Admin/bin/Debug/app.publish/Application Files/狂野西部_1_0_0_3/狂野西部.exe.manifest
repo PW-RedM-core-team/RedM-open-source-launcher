@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="狂野西部.exe" version="1.0.0.3" publicKeyToken="dbf9a471edb94d9e" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="PinClipart.com_quilt-clipart_1316514.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="狂野西部" version="3.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="狂野西部.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI.dll" size="1136808">
+      <assemblyIdentity name="Guna.UI" version="1.9.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V20t4snvW8Hqm91zro9AgAQmADfDtyIn7tJ+mVFmJ20=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1849000">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ihysdNDKTJFZUvWMoBcAia9VX+2T9SCdWapFzy0NJyA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="狂野西部.exe" size="3779032">
+      <assemblyIdentity name="狂野西部" version="3.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nGRqS6P1MCSGPJQaUhy2tLfjqf3bxLjoEnOVQVqdS5U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PinClipart.com_quilt-clipart_1316514.ico" size="261950">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dAdlz8LGKbB32+TjPVA5iXylaW9MDPMS/WPB03ulir0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="狂野西部.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".haohan" description="dd" progid="1" defaultIcon="PinClipart.com_quilt-clipart_1316514.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+<publisherIdentity name="CN=LAPTOP-EDM0K1SQ\汉堡阿布" issuerKeyHash="435d1c4c4316aba5e1c97980aa44562a54f96a83" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1LrnfrHv8VLS5ZLXuKgLhWwka5poOYlx9V5+ctZd3dI=</DigestValue></Reference></SignedInfo><SignatureValue>eyaa+rPOOmdcG+WWawTBH/8fYmP2qJA8JiSp/66Un+eYERjDWJr5osBbB+QBqpJRbi/EFSzxc4EWddAzaYFm1CGOcSOdubpBJyM9U/HzNwn4arjKMo6UMmOj26pnMr2AevV39hfjjl+jkJbtxeIJ455JKqtagn7jC5Qv+NhYeCI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rt3qSYHBfCkAJNdSVRTSLllDcfL/1GIaM7zL0MtmEjd5iXXR/gTgPSu+G00f1lwGJOJX/WK8CJX052xt8oFTcgzRwJRjz5SGk1JKJIwH5S8HRIiLpnNRxcH9dACO+s7To5Pr3l2zuh1qpLDBq6bveTxMjZrDyOjp0Y6jnbudVqk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2dd5dd6727e5ef5718939689a6b246c850ba8b8d792e5d252f1efb17ee7bad4" Description="" Url=""><as:assemblyIdentity name="狂野西部.exe" version="1.0.0.3" publicKeyToken="dbf9a471edb94d9e" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-EDM0K1SQ\汉堡阿布</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yKzzfkgvSs4TWJb13n6Ac8ir1pceCeYbd2SaAq2vuuw=</DigestValue></Reference></SignedInfo><SignatureValue>YR6PkiffDFo/hI1gcZswW50GAHmSEy7KYkJ8/SMjY2giWYLO7CnNRqaDIZUNY4kVwcbxndihItu1IsYzgWh644/pSLQtO+DWUmPkkGrbmSCsgZ9OVc/ViMsaNny00GbsZKeZtbG86Qdwj7FgybcJeOPS8H5rj6j0hpgP3xsgdcM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rt3qSYHBfCkAJNdSVRTSLllDcfL/1GIaM7zL0MtmEjd5iXXR/gTgPSu+G00f1lwGJOJX/WK8CJX052xt8oFTcgzRwJRjz5SGk1JKJIwH5S8HRIiLpnNRxcH9dACO+s7To5Pr3l2zuh1qpLDBq6bveTxMjZrDyOjp0Y6jnbudVqk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQe38VGquj5I1PVF6AjeVwejANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQBFAEQATQAwAEsAMQBTAFEAXGxJWCGWP14DMB4XDTIxMDMxMDExNTk1NVoXDTIyMDMxMDE3NTk1NVowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0ARQBEAE0AMABLADEAUwBRAFxsSVghlj9eAzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArt3qSYHBfCkAJNdSVRTSLllDcfL/1GIaM7zL0MtmEjd5iXXR/gTgPSu+G00f1lwGJOJX/WK8CJX052xt8oFTcgzRwJRjz5SGk1JKJIwH5S8HRIiLpnNRxcH9dACO+s7To5Pr3l2zuh1qpLDBq6bveTxMjZrDyOjp0Y6jnbudVqkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCZ1/wExIUU+WO23XZciOTaAz1lbYyAg4lVr45FOBAbaf7UEd7Sh7n2Akme9Rmy4XS2pQ1gSYFss1yfTnBk1+iR+wZrzVHiaFl4wHxiBB1uCvXD03LaxKZGLw+sTsMH8zo4N01NGQqC7sH8w10iEquozmBEmALfmIRNNdslWLjjRg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
